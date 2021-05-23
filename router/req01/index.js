@@ -204,4 +204,5 @@ app.delete('/:emp_rank_no/delete',((req, res) => {
         res.redirect('/');
     });
 }));
+
 module.exports = app;
